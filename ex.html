@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <style>
+        nav {
+            height: 75px;
+            background-color: royalblue;
+        }
+
+        header {
+            height: 400px;
+
+        }
+
+        .fon {
+            background: url(/goru.jpg) no-repeat center top fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        section {
+            display: flex;
+            height: 700px;
+            
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 75px;
+            margin-left: 100px;
+            margin-bottom: 75px;
+            margin-right: 75px;
+        }
+
+        .PreFooter {
+            height: 40px;
+            background-color: silver;
+            text-align: center;
+        }
+
+        footer {
+            height: 100px;
+            background-color: black;
+            text-align: center;
+            color:gray;
+            padding-top: 40px;
+        }
+
+        .yellow {
+            margin: 0px;
+            height: 200px;
+
+           
+            margin-bottom: 75px;
+            text-align: center;
+            font-size: 30px;
+            padding: 5px 300px 5px 300px;
+        }
+
+        .conter {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .orangebox1 {
+            height: 400px;
+            width: 48%;
+            
+        }
+
+        .orangebox2 {
+            height: 400px;
+            width: 48%;
+           
+        }
+
+        #half {
+            height: 50%;
+            width: 100%;
+           
+        }
+
+        .hre {
+            margin: 0;
+            padding: 4px;
+            margin-left: 1000px;
+        }
+
+        ul.hre li {
+            margin-left: 20px;
+            display: inline;
+
+
+
+        }
+
+        ul.hre li a {
+            font-size: 30px;
+            border-radius: 50px;
+            background: none;
+            border: 1px solid black;
+            text-decoration: none;
+        }
+
+        .conter h1 {
+            font-size: 40px;
+        }
+
+        .presentation {
+            text-align: center;
+            color: white;
+        }
+
+        .presentation h1 {
+            font-size: 70px;
+        }
+
+        .presentation h2 {
+            font-size: 35px;
+
+        }
+
+        .c-button {
+            display: inline-block;
+            color: #fff;
+            background: linear-gradient(to bottom, #00acee, #0072e0);
+            font-size: 18px;
+            border-radius: 100px;
+            border: 3px solid transparent;
+            text-decoration: none;
+        }
+
+        .c-button:hover {
+            background: #1d49aa;
+        }
+
+        p span {
+            font-size: 20px;
+        }
+        .sen{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <!--Меню навігацій-->
+        <div class="fon conter">
+            <h1>Travel Portal</h1>
+            <ul class="hre">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="fon">
+        <!--Вікно для презентації-->
+        <div class="presentation">
+            <h2>We are all together</h2>
+            <h1>WE ARE EUROPE</h1>
+            <button class="c-button">
+                <h3>Watch now</h3>
+            </button>
+        </div>
+
+
+    </header>
+
+    <section>
+        <!--Головний відділ-->
+        <p class="yellow">Experience Europe through our stories<br><br>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad ipsam odit impedit, similique
+                maiores possimus delectus, sit inventore at itaque vel tempore dolorem id maxime iure esse dolores!
+                Ullam?</span>
+        </p>
+        <div class="conter">
+            <div class="orangebox1"><img style="height: 200px; width: 820px;" src="/panorama.jpg" alt="">
+                <div id="half">
+                    <h1 class="sen">ABOUT</h1>
+                    <p class="sen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quidem nihil doloremque deleniti nam dolor vero nesciunt eius porro sequi. Nobis iste tempora explicabo repellendus numquam ipsam ipsum voluptate nemo.</p>
+                </div>
+            </div>
+            <div class="orangebox2"><img style="height: 200px; width: 820px;" src="/panorama2.jpg" alt="">
+                <div id="half">
+                    <h1 class="sen">TAKE ACTION</h1>
+                    <p class="sen">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sunt ipsam commodi voluptas corporis eaque beatae, recusandae cumque fugiat vitae odio repellat. Hic dolor et magni reiciendis nesciunt modi quis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="PreFooter">
+        Want to know more about Europe?
+
+    </div>
+
+    <footer>
+        <!--Контакти-->
+        2020 Ukraine Kiev Nation Aviation University
+    </footer>
+</body>
+
+</html>
